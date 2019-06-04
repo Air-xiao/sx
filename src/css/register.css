@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #6C6C6C;
+}
+li {
+  list-style: none;
+  float: left;
+}
+img {
+  border: 0;
+}
+body {
+  font: 12px "微软雅黑";
+  color: #000;
+}
+header {
+  background: #f5f5f5;
+}
+header > nav {
+  margin: 0 auto;
+  width: 1190px;
+  height: 35px;
+}
+header > nav a:hover {
+  color: #f00;
+}
+header > nav .left {
+  height: 35px;
+  width: 213px;
+  float: left;
+}
+header > nav .left .login {
+  padding: 0 6px;
+  height: 35px;
+  line-height: 35px;
+}
+header > nav .left .login a {
+  color: #6C6C6C;
+}
+header > nav .left .login a:hover {
+  color: #f00;
+}
+header > nav .left .login .red {
+  color: #F22E00;
+}
+header > nav .left .mobile {
+  height: 35px;
+  line-height: 35px;
+  padding: 0 6px;
+}
+header > nav .left .mobile a {
+  color: #6C6C6C;
+}
+header > nav .left .mobile a:hover {
+  color: #f00;
+}
+header > nav .right {
+  float: right;
+}
+header > nav .right .part {
+  color: #d1cfcf;
+}
+header > nav .right li {
+  height: 35px;
+  line-height: 35px;
+  padding: 0 6px;
+  position: relative;
+}
+header > nav .right li img {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-left: 5px;
+}
+header > nav .right li .subnav {
+  margin-top: -1px;
+  margin-left: -6px;
+  position: relative;
+  z-index: 1000;
+  display: none;
+}
+header > nav .right li .subnav .subnav-list {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 8px 0;
+  border: 1px solid #eee;
+  background: #fff;
+}
+header > nav .right li .subnav .subnav-list a {
+  display: block;
+  padding: 0 5px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+header > nav .right li .subnav .subnav-list a:hover {
+  background: #eee;
+  color: #6c6c6c;
+}
+header > nav .right .site:hover {
+  background: #fff;
+}
+header > nav .right .site:hover .subnav {
+  display: block;
+  z-index: 1001;
+}
+header > nav .right .site:hover .subnav .subnav-list {
+  border-top: 0;
+}
+header > nav .right .last .net-nav {
+  width: 1188px;
+  position: absolute;
+  right: 0;
+  left: auto;
+  margin-left: 0;
+  background-color: #fff;
+}
+header > nav .right .last .net-nav .net-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+header > nav .right .last .net-nav .net-wrap .net {
+  width: 25%;
+  float: left;
+  padding: 5px;
+  border-right: 1px solid #eee;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+header > nav .right .last .net-nav .net-wrap .net h4 {
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  overflow: hidden;
+}
+header > nav .right .last .net-nav .net-wrap .net li {
+  float: left;
+  width: 33%;
+  padding: 5px 0 0;
+  height: 25px;
+}
+header > nav .right .last .net-nav .net-wrap .net li a {
+  position: relative;
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 2px;
+  padding: 0 8px;
+  border-radius: 2px;
+}
+header > nav .right .last .net-nav .net-wrap .net li a:hover {
+  color: #fff;
+}
+header > nav .right .last .net-nav .net-wrap .net li a .hot {
+  background: url(../img/T1hOy5XhNnXXXXXXXX-9-14.gif) no-repeat;
+}
+header > nav .right .last .net-nav .net-wrap .net li a .new {
+  background: url(../img/T1lni5XhXXXXXXXXXX-9-14.gif) no-repeat;
+}
+header > nav .right .last .net-nav .net-wrap .net li a i {
+  position: absolute;
+  top: -5px;
+  right: 0;
+  display: block;
+  width: 9px;
+  height: 14px;
+  overflow: hidden;
+}
+header > nav .right .last .net-nav .net-wrap .net-first li {
+  width: 24%;
+}
+header > nav .right .last .net-nav .net-wrap .net-first li a:hover {
+  background: #fc4200;
+}
+header > nav .right .last .net-nav .net-wrap .net-second a:hover {
+  background: #9fb838;
+}
+header > nav .right .last .net-nav .net-wrap .net-third a:hover {
+  background: #d75696;
+}
+header > nav .right .last .net-nav .net-wrap .net-last {
+  border-right: 0;
+}
+header > nav .right .last .net-nav .net-wrap .net-last li {
+  width: 49%;
+}
+header > nav .right .last .net-nav .net-wrap .net-last li a:hover {
+  background: #2e9fdb;
+}
+.main {
+  width: 1190px;
+  margin: 0 auto;
+  color: #3c3c3c;
+}
+.main .logo {
+  position: relative;
+  height: 43px;
+  padding: 20px 0;
+}
+.main .logo h1 {
+  display: inline-block;
+  width: 106px;
+  height: 43px;
+  vertical-align: middle;
+}
+.main .logo h1 img {
+  width: 106px;
+  height: 43px;
+}
+.main .logo h2 {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 22px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+.main .steps {
+  height: 46px;
+  border-bottom: 2px solid #e6e6e6;
+  position: relative;
+}
+.main .steps ol {
+  width: 720px;
+  margin: 0 auto;
+}
+.main .steps ol li {
+  width: 150px;
+  padding-left: 30px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #999;
+}
+.main .steps ol li i {
+  display: inline-block;
+  background: url(../img/ico-circle2.png);
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFF;
+}
+.main .steps .active {
+  color: #3e3e3e;
+  border-bottom: 2px solid #ff4700;
+}
+.main .steps .active i {
+  background: url(../img/ico-circle1.png);
+}
+.main .steps .language {
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+.main .steps .language a {
+  padding: 3px 5px;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.main .content {
+  padding: 50px 0;
+}
+.main .content .form-list {
+  width: 720px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.main .content .form-list .group {
+  padding: 10px 0;
+}
+.main .content .form-list .group .item {
+  padding: 10px 0 10px 230px;
+  line-height: 36px;
+}
+.main .content .form-list .group .item .name {
+  margin-left: -14px;
+}
+.main .content .form-list .group .item input {
+  border: 1px solid #dedede;
+  padding: 8px;
+  width: 200px;
+}
+.main .content .form-list .group .next {
+  padding: 20px 0 10px 306px;
+}
+.main .content .form-list .group .next button {
+  width: 160px;
+  height: 36px;
+  padding: 0 20px;
+  background-color: #ededed;
+  border: 0;
+  color: #999;
+}
+.main .content .form-list .group .next button:hover {
+  color: #fff;
+}
+.main .content .form-list .group .cut {
+  padding: 10px 0 10px 306px;
+}
+.main .content .form-list .group .cut a {
+  color: #ff5b20;
+  font-size: 12px;
+}
+.main .content .form-list .group .cut a:hover {
+  text-decoration: underline;
+}
+.main .suggest {
+  padding: 10px 0;
+  text-align: right;
+}
+.main .suggest img {
+  vertical-align: middle;
+}
+.main .suggest a {
+  color: #ff5b20;
+}
+.main .suggest a:hover {
+  text-decoration: underline;
+}
+footer {
+  position: relative;
+  margin: 0 auto;
+  padding: 7px 0 9px;
+  border-top: 1px solid #ddd;
+  width: 1200px;
+}
+footer p {
+  padding-bottom: 8px;
+  overflow: hidden;
+}
+footer p a {
+  margin: 0 4px;
+  color: #6c6c6c;
+}
+footer p a:hover {
+  color: #f40;
+}
+footer p b {
+  font-weight: 400;
+  color: #ddd;
+}
+footer p em {
+  margin-left: 30px;
+  color: #9c9c9c;
+  font-style: normal;
+}
+footer .footer-hd {
+  margin-bottom: 8px;
+  line-height: 27px;
+  border-bottom: 1px solid #ddd;
+}
+footer .footer-bd span {
+  margin: 0 4px;
+  color: #9c9c9c;
+}
